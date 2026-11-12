@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #242424;
+  background: #d9d9d9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+select,
+input {
+  cursor: pointer;
+}
+
+input {
+  cursor: text;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
